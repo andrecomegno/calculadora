@@ -11,13 +11,13 @@ class Display extends StatelessWidget {
     return Expanded(
       flex: 1,
       child: Container(
-        color: Color.fromRGBO(48, 48, 48, 1),
+        color: Color.fromRGBO(255, 255, 255, 1),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.end,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
             Padding(
-              padding: const EdgeInsets.all(8.0),
+              padding: const EdgeInsets.all(1.0),
               child: AutoSizeText(
                 text,
                 minFontSize: 20,
@@ -28,7 +28,7 @@ class Display extends StatelessWidget {
                   fontWeight: FontWeight.w100,
                   decoration: TextDecoration.none,
                   fontSize: 80,
-                  color: Colors.white,
+                  color: Colors.black,
                 ),
               ),
             ),

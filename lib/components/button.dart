@@ -37,6 +37,9 @@ class Button extends StatelessWidget {
       flex: big ? 2 : 1,
       child: RaisedButton(
         color: this.color,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(40),
+        ),
         child: Text(
           text,
           style: TextStyle(

@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 import 'package:flutter/material.dart';
 import 'button.dart';
 import 'button_row.dart';
@@ -12,7 +10,9 @@ class Keyborad extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 500,
+      height: 400,
+      color: Color.fromRGBO(255, 255, 255, 1),
+      padding: const EdgeInsets.all(8.0),
       child: Column(
         children: <Widget>[
           ButtonRow([
